@@ -67,7 +67,7 @@ def play_game(round_number):
             update_board(guess_col, guess_row)
   
   
-  print("BAHA! You're out of shops!")
+  print("BAHA! You're out of shots!")
   print("My ship was lurking at " + str(ship_row) + ", " + str(ship_col)) 
     
   play_prompt(round_count)
